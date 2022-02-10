@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F3F3F3"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="7.5dp"
+    android:paddingBottom="7.5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2.5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2.5dp"
+        app:cardCornerRadius="25dp"
+        android:elevation="3dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:id="@+id/imageView"
+                android:background="@drawable/icon_walmart"
+                android:padding="4dp"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text=""
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    android:layout_centerInParent="true"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/imageView"
+                android:fontFamily="@font/ubuntubold"
+                android:text="Apple MacBook Air Core ac OS Sierra)"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textViewShortDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/ubuntulight"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/imageView"
+                android:text="Get free credit with your first order"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <ImageView
+                android:layout_width="31dp"
+                android:layout_height="28dp"
+                android:id="@+id/textViewShortDesc1"
+                android:layout_below="@+id/textViewShortDesc"
+                android:layout_alignEnd="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="-36dp"
+                android:scaleType="fitXY"
+                android:layout_marginRight="-36dp"
+                android:src="@drawable/walmart_people" />
+
+            <TextView
+                android:id="@+id/textViewRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewShortDesc"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@id/imageView"
+                android:fontFamily="@font/ubunturegular"
+                android:paddingLeft="5dp"
+                android:paddingRight="15dp"
+                android:text="1115 People Used"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="31dp"
+                android:layout_height="28dp"
+                android:layout_below="@+id/textViewShortDesc1"
+                android:layout_alignEnd="@+id/imageView"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="-36dp"
+                android:scaleType="fitXY"
+                android:layout_marginRight="-36dp"
+                android:src="@drawable/walmart_likes" />
+
+            <TextView
+                android:id="@+id/textViewRating21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewRating"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@id/imageView"
+                android:paddingLeft="5dp"
+                android:paddingRight="15dp"
+                android:fontFamily="@font/ubunturegular"
+                android:text="156 Likes"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_below="@+id/textViewRating"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewRating2"
+                    android:layout_width="110dp"
+                    android:layout_height="44dp"
+                    android:gravity="center"
+                    android:layout_gravity="end"
+                    android:background="@drawable/walmart_get_code"
+                    android:text="GET CODE"
+                    android:fontFamily="@font/ubuntubold"
+                    android:layout_margin="10dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

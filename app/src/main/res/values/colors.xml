@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B3D334</color>
+    <color name="colorPrimaryDark">#B3D334</color>
+    <color name="colorAccent">#219dbf</color>
+
+    <color name="background">#eef5f6</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+
+    <color name="rate_us_border_n_text">#05172b</color>
+    <color name="description_txt_color">#343333</color>
+    <color name="like_text_color">#7e7e7e</color>
+</resources>

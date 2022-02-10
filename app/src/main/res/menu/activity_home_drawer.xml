@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+       <!-- <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/alert"
+            android:title="Privacy Policy" />-->
+        <item
+            android:id="@+id/nav_rateus"
+            android:icon="@drawable/star"
+            android:title="Rate Us" />
+<!--        <item-->
+<!--            android:id="@+id/nav_more"-->
+<!--            android:icon="@drawable/more"-->
+<!--            android:title="More Apps" />-->
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Share Apps" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/logout"
+            android:title="Exit" />
+    </group>
+
+</menu>

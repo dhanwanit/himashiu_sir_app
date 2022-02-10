@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/walmart_splash"
+    android:layout_height="match_parent">
+
+<ProgressBar
+    style="?android:attr/progressBarStyleLarge"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:id="@+id/progressBar"
+    android:visibility="gone"
+    android:layout_centerInParent="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="100dp"
+    android:progressDrawable="@drawable/circular_progress_bar"/>
+
+    <!--
+    <ProgressBar
+        android:id="@+id/simpleProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="500dp"
+        android:layout_centerHorizontal="true"/>-->
+
+<!--
+<pl.droidsonroids.gif.GifImageView
+    android:layout_width="250dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="100dp"
+    android:id="@+id/dancer"
+    android:layout_centerHorizontal="true"
+    android:background="#FFFFFF"
+    android:src="@drawable/loading_gif" />-->
+
+</RelativeLayout>

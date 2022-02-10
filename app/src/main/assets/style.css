@@ -1,0 +1,73 @@
+.owl-nav{
+            display: none !important;
+}
+.related-merchants-coupons{
+    display: none !important;
+}
+.owl-carousel owl-loaded owl-drag{
+    display: none !important;
+}
+.owl-stage-outer{
+                    display: none !important;
+                }
+.store-offers {
+    display: none !important;
+}
+
+.code-action {
+    display: none !important;
+}
+.otitle {
+    pointer-events: none;
+}
+body .ohop.code {
+    pointer-events: none;
+    display: block !important;
+}
+body .ocode {
+    display: block !important;
+}
+.obox .ohop .code-container .ocode {
+    line-height: 25px !important;
+    text-align: center;
+    color: #05172b;
+}
+body span.ocode.revealed {
+    color: #2D0B33 !important;
+    display: block !important;
+}
+.viewstore-col {
+    display: none !important;
+}
+.subheader {
+}
+.header__top-bar {
+    display: none !important;
+}
+.container.main-container {
+    padding-top: 0;
+
+}
+.header__seo-title {
+    display: none !important;
+}
+.inpage-search {
+    display: none !important;
+}
+.newsletter-list-footer {
+    display: none !important;
+}
+.prefooter-box {
+    display: none !important;
+}
+.sidebar-menu {
+    display: none !important;
+}
+.bottom {
+    display: none !important;
+}
+.breadcrumb {
+    display: none !important;
+}
+.
+
